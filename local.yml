@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  pandoc:
+    tty: true
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    image: pandoc-tutorial
+    volumes:
+      - .:/tutorial-data
+    command: tail -F anything
