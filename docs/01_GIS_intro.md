@@ -12,7 +12,7 @@ Un mapa es una representación gráfica simplificada de un territorio con propie
 
 ### Escala
 
-TEST
+![Scale](./images/simple_scale.png)
 
 #### Cálculos con Escalas
 
